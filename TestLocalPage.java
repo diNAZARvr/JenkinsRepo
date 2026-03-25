@@ -17,7 +17,6 @@ public class TestLocalPage {
 
             // Проверка: заголовок страницы
             String title = driver.getTitle();
-            System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
             System.out.println("Page title: " + title);
 
             if (title == null || title.isEmpty()) {
