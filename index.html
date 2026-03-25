@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красивый сайт</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2em;
+            text-align: center;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            font-size: 0.8em;
+            color: #777;
+            position: absolute;
+            bottom: 20px;
+        }
+
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Добро пожаловать на мою страницу!</h1>
+    <p>Здесь ты можешь узнать больше о веб-разработке и других интересных технологиях. Мы изучим, как создавать страницы с использованием HTML, CSS и JavaScript!</p>
+    
+    <button class="button" onclick="showMessage()">Нажми на меня!</button>
+
+    <div class="footer">
+        <p>© 2026 Все права защищены | <a href="#">Политика конфиденциальности</a></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert('Спасибо за нажатие! Разработка веб-страниц — это увлекательно!');
+        }
+    </script>
+
+</body>
+</html>
