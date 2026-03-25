@@ -5,7 +5,7 @@ public class TestLocalPage {
     public static void main(String[] args) {
         try {
             // Устанавливаем путь к ChromeDriver (важно!)
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\chromedriver\chromedriver.exe");
 
             WebDriver driver = new ChromeDriver();
 
