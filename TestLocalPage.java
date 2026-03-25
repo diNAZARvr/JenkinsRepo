@@ -25,7 +25,7 @@ public class TestLocalPage {
 
             System.out.println("SUCCESS: Page opened!");
 
-            driver.quit();
+            //driver.quit();
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(1); // Важно для Jenkins (падение билда)
