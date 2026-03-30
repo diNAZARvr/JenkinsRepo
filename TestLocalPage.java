@@ -10,7 +10,7 @@ public class TestLocalPage {
             WebDriver driver = new ChromeDriver();
 
             // Строим URL для локального сервера
-            String url = "http://localhost:8000";
+            String url = "http://localhost:8200";
 
             // Открываем страницу
             driver.get(url);
