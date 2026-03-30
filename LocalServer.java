@@ -8,7 +8,7 @@ import java.nio.file.Files;
 
 public class LocalServer {
     public static void main(String[] args) throws Exception {
-        int port = 8100;
+        int port = 8000;
 
     
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
